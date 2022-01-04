@@ -60,7 +60,6 @@ public class demo0020isValid {
                                 || (stack.peek().equals('[') && ch == '{'))) {
                     return false;
                 } else {
-
                     stack.push(ch);
                 }
             }
