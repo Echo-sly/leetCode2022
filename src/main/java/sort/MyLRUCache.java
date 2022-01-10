@@ -49,7 +49,6 @@ public class MyLRUCache {
             moveToHead(node);
         }
     }
-    Char
     public int get(int key) {
         DlinkedNode node = cache.get(key);
         if (node == null) {
